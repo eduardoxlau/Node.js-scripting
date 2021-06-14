@@ -7,11 +7,15 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node src/**.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.23",
     "@types/node": "^15.12.2",
+    "jest": "^27.0.4",
     "nodemon": "^2.0.7",
+    "ts-jest": "^27.0.3",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.2"
   }
