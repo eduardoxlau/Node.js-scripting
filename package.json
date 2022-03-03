@@ -1,0 +1,22 @@
+{
+  "name": "Node.js-scripting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:eduardoxlau/Node.js-scripting.git",
+  "author": "Rafael sanchez <sanchezpazrafael@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/**.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.2",
+    "jest": "^27.0.4",
+    "nodemon": "^2.0.7",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
